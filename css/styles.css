@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+hr{
+    border: dotted #EAF6F6  10px;
+    width: 5%;
+    border-bottom:none ;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+.skills{
+    margin: 100px    0px;
+}
+.profile > p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto;
+    width: 31.25rem;
+    line-height: 2;
+}
+.profile{
+    margin: 100px auto;
+    width: 31.25rem;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #11999E;
+}
+h1{
+    margin: 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.top-container{
+    padding-top: 100px;
+    position: relative;
+    background-color: #EAF6F6
+}
+.skill-row  {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row-img1 {
+    width: 25%;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+.skill-row-img2{
+    width: 25%;
+    float: right;
+    margin: 0px 0px 0px 30px;
+}
+.profile-pic{
+    width: 25%;
+}
+.contact-me{
+    padding: 4rem 6rem;
+}
+.contact-me > h3{
+    padding: 1rem;
+}
+.contact-me > p{
+    padding: 1rem;
+    width: 50%;
+    margin: 2rem auto ;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 3.125rem ;
+    margin: 0px;
+}
+.bottom-container > p{
+    color: #EAF6F6;
+    margin-top: 2rem;
+    font-size: small;
+}
+
+.hr{
+    border-top: 10px dotted;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding: 1.5rem;
+    color: #11999E;
+}
+.btn {
+
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF6F6;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+/*
+    Display : 
+    none - removes as if nothing is there
+    block - Covers full line 
+    inline - Inside line covers only content space
+    inline-block could be used to give properties of block and inline elen=ments (Can control width)
+    */
+
+    /* Text align - used to center and applied in parent */
+
+/* Font Size
+    100% = 16px
+    1em = 16px
+    em takes in account of it's parent 
+    rem ignores the parent's font size 
+*/
+/* 
+    To center an element we can do 2 things -> 1. text-align:center;  2.  margin-left/right:auto;   
+*/
+/* 
+    FLoat -> To float a elemnent in its container to any side
+    clear -> The element should not float in its left/right end.
+    .para2-skill{
+    clear: right;
+    } 
+*/
